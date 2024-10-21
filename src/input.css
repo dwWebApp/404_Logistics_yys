@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: 'CJ ONLYONE NEW BODY LIGHT';
+        src: url('./font/CJ ONLYONE NEW body Light.ttf');
+        src: local(''),
+            url('./font/CJ ONLYONE NEW body Light.ttf') format('truetype');
+    }
+
+    @font-face {
+        font-family: 'CJ ONLYONE NEW BODY REGULAR';
+        src: url('./font/CJ ONLYONE NEW body Regular.ttf');
+        src: local(''),
+            url('./font/CJ ONLYONE NEW body Regular.ttf') format('truetype');
+    }
+
+    @font-face {
+        font-family: 'CJ ONLYONE NEW TITLE MEDIUM';
+        src: url('./font/CJ ONLYONE NEW title Medium.ttf');
+        src: local(''),
+            url('./font/CJ ONLYONE NEW title Medium.ttf') format('truetype');
+    }
+
+    @font-face {
+        font-family: 'CJ ONLYONE NEW TITLE BOLD';
+        src: url('./font/CJ ONLYONE NEW title Bold.ttf');
+        src: local(''),
+            url('./font/CJ ONLYONE NEW title Bold.ttf') format('truetype');
+    }
+}
