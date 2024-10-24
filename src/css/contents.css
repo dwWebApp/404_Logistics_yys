@@ -1,4 +1,4 @@
-.body_top:before{content: '';position: absolute; display: inline-block;width: 421px;height: 303px; background: url('../images/pc/bg_top.png') no-repeat 0 0; background-size: contain;z-index: -1}
+.body_top:before{content: '';position: absolute; display: inline-block;width: 425px;height: 303px; background: url('../images/pc/bg_top.png') no-repeat 0 -73px; background-size: contain;z-index: -1}
 .body_top:after{content: ''; position: absolute; bottom: 250px; right: 0; display: inline-block; width: 148px;height: 247px; background: url('../images/pc/bg_bottom.png') no-repeat 0 0; background-size: contain;z-index: -1;}
 .bg_ani{display: none;}
 .line{position: absolute;right: -25%;bottom: 10%; width: 106px;height: 88px;}

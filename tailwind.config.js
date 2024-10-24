@@ -10,6 +10,7 @@ module.exports = {
     },
     backgroundPosition: {
       'center-left': 'center left 17px',
+      'center-left_2': 'center left 10px',
       'center-right': 'center right 10px',
       'right': 'right',
       'center-bottom': 'center bottom -25%',
