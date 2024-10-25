@@ -8,7 +8,7 @@
 </head>
 <body>
   <header class="flex justify-between items-center w-full md:h-[72px] border-b-2 border-[#E1E1E1] md:pl-16 md:pr-8 h-[50px] px-5">
-    <h1 class="logo"><a href="javascript:;"><img src="../images/pc/logo.png" alt="대한통운 logo" class="h-[34px] md:h-[46px]"></a></h1>
+    <h1 class="logo"><a target="_blank" href="https://www.cjlogistics.com/ko/main"><img src="../images/pc/logo.png" alt="대한통운 logo" class="h-[34px] md:h-[46px]"></a></h1>
     <a href="javascript:;" class="menu"><img src="../images/pc/menu.png" alt="메뉴 버튼"></a>
   </header>
   <main class="w-full">
@@ -27,20 +27,32 @@
                     <img src="../images/pc/line3.png" alt="" class="line3">
                 </div>
             </div>
-            <p class="text-center pt-7">
+            <p class="text-center pt-7 md:mb-[60px] mb-[24px]">
                 <img src="../images/pc/main_txt.png" alt="404 error pc" class="hidden md:inline-block">
-                <img src="../images/mo/main_txt_m.png" alt="404 error mobile" class="inline-block md:hidden">
+                <img src="../images/mo/main_txt_m.png" alt="404 error mobile" class="inline-block md:hidden max-w-[300px]">
             </p>
-            <div class="text-center m-view">
-                <div class="relative hidden md:inline-block">
-                    <img src="../images/pc/main_txt2.png" alt="챗봇상담 pc" >
-                    <a href="javascript:;" class="absolute top-[27%] right-[13%] w-[143px] h-[43px]"></a>
-                </div>
-                <div class="relative inline-block pt-6 md:hidden">
-                    <img src="../images/mo/main_txt2_m.png" alt="챗봇상담 m">
-                    <a href="javascript:;" class="absolute top-[28%] left-[50%] ml-[-98px] w-[195px] h-[43px]"></a>
+            <div class="m-view">
+                <div class="m-view__inner md:w-[634px] w-[300px] mx-auto bg-[#EEEEF1] md:bg-[#fff] px-8 md:px-0">
+                    <div class="flex flex-col items-center justify-center pt-5 border-t md:flex-row md:mt-0">
+                        <h3 class="text-[14px] md:text-[23px] text-[#333] font-BOLD">사업/서비스 관련 궁금하신 사항은 <br class="block md:hidden"> 문의해주세요. </h3>
+                        <a target="_blank" href="https://chatbotweb.cjlogistics.com/indexCj.do?media=COM" class="btn-chat md:ml-4 mt-[10px] mb-[15px] md:my-0"><img src="../images/pc/btn_BT.png" alt="챗봇상담"></a>
+                    </div>
+                    <ul class="flex flex-wrap gap-[4px] md:gap-2 btn-tag md:w-[551px] md:justify-center mx-auto md:pt-5 md:pb-[70px] pt-[17px ] pb-[29px]">
+                        <li><a href="https://www.cjlogistics.com/ko/support/inquiry/agreement?searchContactMainCd=I001&searchContactCd=I001002">#오네계약</a></li>
+                        <li><a href="https://www.cjlogistics.com/ko/support/inquiry/businessInquiry?searchBusinessInquiryCd=A1">#풀필먼트</a></li>
+                        <li><a href="https://www.cjlogistics.com/ko/support/inquiry/businessInquiry?searchBusinessInquiryCd=B1">#기업물류</a></li>
+                        <li><a href="https://www.cjlogistics.com/ko/support/inquiry/businessInquiry?searchBusinessInquiryCd=C1">#포워딩&국제특송</a></li>
+                        <li><a href="https://www.cjlogistics.com/ko/support/inquiry/businessInquiry?searchBusinessInquiryCd=D1">#수송·항만하역</a></li>
+                        <li><a href="https://www.cjlogistics.com/ko/support/inquiry/businessInquiry?searchBusinessInquiryCd=E1">#글로벌</a></li>
+                        <li><a href="https://www.cjlogistics.com/ko/support/inquiry/businessInquiry?searchBusinessInquiryCd=F1">#TES</a></li>
+                        <li><a href="https://www.cjlogistics.com/ko/support/inquiry/agreement?searchContactMainCd=I002&searchContactCd=I002001">#택배</a></li>
+                        <li><a href="https://www.cjlogistics.com/ko/support/inquiry/agreement?searchContactMainCd=I002&searchContactCd=I002002
+                            ">#국제특송</a></li>
+                        <li><a href="https://www.cjlogistics.com/ko/support/inquiry/agreement?searchContactMainCd=I002&searchContactCd=I002003">#국내이사</a></li>
+                    </ul>
                 </div>
             </div>
+
         </div>
         <div class="bg-[#007AC3] md:block hidden">
             <div class="lg:w-[1020px] mx-auto py-10">
@@ -60,15 +72,15 @@
         </div>
     </div>
     <div class="bg-[url('images/pc/frame-bg.png')] bg-contain bg-[#E4E4E4] md:py-[60px] py-[30px]">
-        <div class="md:w-[768px] lg:w-[861px] mx-auto flex flex-wrap justify-between md:gap-1.5 gap-1 w-[300px] md:px-0 [&>.btn]:tracking-tighter [&>.btn]:w-[49%] [&>.btn]:h-16 [&>.btn]:md:w-[24%] [&>.btn]:md:h-[60px] [&>.btn]:border-[#ccc] [&>.btn]:box-border [&>.btn]:text-[13px] md:[&>.btn]:text-[14px] [&>.btn]:border [&>.btn]:font-MEDIUM">
-            <button class="btn pl-14 bg-white bg-[url('images/pc/img_01.png')] bg-auto bg-no-repeat bg-center-left">택배예약</button>
-            <button class="btn pl-14 bg-white bg-[url('images/pc/img_02.png')] bg-auto bg-no-repeat bg-center-left">반품예약</button>
-            <button class="btn pl-14 bg-white bg-[url('images/pc/img_03.png')] bg-auto bg-no-repeat bg-center-left">챗봇상담</button>
-            <button class="btn pl-14 bg-white bg-[url('images/pc/img_04.png')] bg-auto bg-no-repeat bg-center-left">국제특송<br class="block md:hidden">조회</button>
-            <button class="btn pl-12 bg-white bg-[url('images/pc/img_05.png')] bg-auto bg-no-repeat bg-center-left md:bg-center-left_2">이커머스 물류 <br class="block md:hidden"> 간편 견적</button>
-            <button class="btn pl-14 bg-white bg-[url('images/pc/img_06.png')] bg-auto bg-no-repeat bg-center-left">국내이사 <br class="block md:hidden"> 간편 견적</button>
-            <button class="btn pl-14 bg-white bg-[url('images/pc/img_07.png')] bg-auto bg-no-repeat bg-center-left">포워딩 <br class="block md:hidden"> 간편 견적</button>
-            <button class="btn pl-14 bg-white bg-[url('images/pc/img_08.png')] bg-auto bg-no-repeat bg-center-left md:bg-center-left_2">the unban<br class="block md:hidden"> [더 운반]</button>
+        <div class="md:w-[768px] lg:w-[861px] mx-auto flex flex-wrap justify-between md:gap-1.5 gap-1 w-[300px] md:px-0 btn_quick">
+            <a target="_blank" href="https://www.cjlogistics.com/ko/tool/parcel/reservation-general" class="pl-14 bg-center-left bg-white bg-[url('images/pc/img_01.png')] hover:bg-[url('images/pc/img_01_hover.png')]">택배예약</a>
+            <a target="_blank" href="https://www.cjlogistics.com/ko/tool/parcel/reservation-return" class="pl-14 bg-center-left bg-white bg-[url('images/pc/img_02.png')] hover:bg-[url('images/pc/img_02_hover.png')]">반품예약</a>
+            <a target="_blank" href="https://chatbotweb.cjlogistics.com/indexCj.do?media=COM" class="pl-14 bg-center-left bg-white bg-[url('images/pc/img_03.png')] hover:bg-[url('images/pc/img_03_hover.png')]">챗봇상담</a>
+            <a target="_blank" href="https://www.cjlogistics.com/ko/tool/international/tracking" class="pl-14 bg-center-left bg-white bg-[url('images/pc/img_04.png')] hover:bg-[url('images/pc/img_04_hover.png')]">국제특송<br class="block md:hidden">조회</a>
+            <a target="_blank" href="https://www.cjlogistics.com/ko/estimate/estimate" class="pl-12 bg-center-left bg-white bg-[url('images/pc/img_05.png')] hover:bg-[url('images/pc/img_05_hover.png')] md:bg-center-left_2">이커머스 물류 <br class="block md:hidden"> 간편 견적</a>
+            <a target="_blank" href="https://www.cjlogistics.com/ko/tool/removal/domestic-quotation" class="pl-12 bg-center-left bg-white bg-[url('images/pc/img_06.png')] hover:bg-[url('images/pc/img_06_hover.png')]">국내이사 <br class="block md:hidden"> 간편 견적</a>
+            <a target="_blank" href="https://forwarders.cjlogistics.com/" class="pl-14 bg-center-left bg-white bg-[url('images/pc/img_07.png')] hover:bg-[url('images/pc/img_07_hover.png')]">포워딩 <br class="block md:hidden"> 간편 견적</a>
+            <a target="_blank" href="https://www.unban.ai/" class="pl-14 bg-center-left bg-white bg-[url('images/pc/img_08.png')] hover:bg-[url('images/pc/img_08_hover.png')]">the unban<br class="block md:hidden"> [더 운반]</a>
         </div>
     </div>
   </main>
