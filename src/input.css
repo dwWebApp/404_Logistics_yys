@@ -31,3 +31,17 @@
             url('./font/CJ ONLYONE NEW title Bold.ttf') format('truetype');
     }
 }
+
+@layer components {
+    .btn-tag > li > a{
+      @apply px-[12px] h-[24px] md:px-[14px] md:h-[32px] text-[12px] md:text-[13px] border-[#D2D1D7] md:border-[#E3E4E5] text-[#666] hover:border-[#0B80C4] hover:text-[#007AC3] border font-LIGHT bg-[#fff] flex justify-center items-center
+    }
+
+    .btn_quick > a{
+        @apply tracking-tighter w-[49%] h-16 md:w-[24%] md:h-[60px] border-[#ccc] box-border text-[13px] md:text-[14px] border font-MEDIUM flex justify-center items-center bg-auto bg-no-repeat
+    }
+    .btn_quick > a:hover{
+        @apply bg-[#007AC3] text-[#fff] border-[#007AC3]
+    }
+
+  }
