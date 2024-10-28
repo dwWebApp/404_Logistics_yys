@@ -38,7 +38,7 @@
     }
 
     .btn_quick > a{
-        @apply tracking-tighter w-[49%] h-16 md:w-[24%] md:h-[60px] border-[#ccc] box-border text-[13px] md:text-[14px] border font-MEDIUM flex justify-center items-center bg-auto bg-no-repeat
+        @apply tracking-tighter w-[49%] h-16 md:w-[24%] md:h-[60px] border-[#ccc] box-border text-[13px] md:text-[14px] border font-MEDIUM flex md:justify-start justify-center items-center bg-auto bg-no-repeat md:pl-[4.2rem] pl-14 text-center
     }
     .btn_quick > a:hover{
         @apply bg-[#007AC3] text-[#fff] border-[#007AC3]

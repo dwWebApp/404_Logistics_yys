@@ -24,7 +24,7 @@
     .body_top:before{display: none;}
     .body_top:after{display: none;}
 
-    .m-view{background: url('../images/mo/mo_bg.png') no-repeat 0 0; background-size: 100% 100%;background-position: center bottom -70px;}
+    .m-view{background: url('../images/mo/mo_bg.png') no-repeat 0 0; background-size: 100% 100%;background-position: center bottom;overflow: hidden;}
     .m-view__inner{position: relative;}
     .m-view__inner::after{content: '';display: inline-block;position: absolute;bottom: -10%;right: -10%;width: 40px;height: 25px;transform: rotate(143deg);background: #0B80C4;}
     .m-view__inner:hover::after{bottom: -4%;right: -4%;transition: 0.3s;}
